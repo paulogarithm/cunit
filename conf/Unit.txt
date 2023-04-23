@@ -1,0 +1,9 @@
+@ lib/lib_unistd/my_isit.c
+$ my_isnum "3" == 1
+$ my_isnum "0" == 1
+$ my_isnum "-1" == 1
+$ my_isnum "29830" == 1
+$ my_isnum "hello" == 0
+$ my_isnum "-1a" == 0
+$ my_isfloat "3.14" == 1
+run
